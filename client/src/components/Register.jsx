@@ -76,7 +76,7 @@ const Register = () => {
               {/* If there's an image uploaded, show preview, otherwise show the default text */}
               {uploadPhoto ? (
                 <img
-                  className="object-scale-down w-full h-full rounded-full"
+                  className="object-cover w-full h-full rounded-full"
                   src={URL.createObjectURL(uploadPhoto)}
                   alt="Preview"
                 />

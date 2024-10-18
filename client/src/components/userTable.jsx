@@ -130,7 +130,7 @@ const UserTable = () => {
                   <div className="flex-shrink-0">
                     {user?.photo ? (
                       <img
-                        className="w-11 h-11 rounded-full"
+                        className="w-11 h-11 object-cover rounded-full"
                         src={user?.photo}
                         alt="User Avatar"
                       />
